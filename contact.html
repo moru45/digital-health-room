@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="ja">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>お問い合わせ | もるさんデジタル保健室</title>
+    <meta name="description" content="もるさんデジタル保健室へのお問い合わせはこちらから。">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+
+    <!-- Header -->
+    <header class="site-header">
+        <div class="container header-inner">
+            <div class="site-logo">
+                <a href="index.html">
+                    <img src="images/logo/Logo-2_100.png" alt="もるさんデジタル保健室" class="logo-img">
+                    <span class="logo-text">もるさんデジタル保健室</span>
+                </a>
+            </div>
+            <button class="menu-toggle" aria-label="メニューを開く">☰</button>
+            <nav class="site-nav">
+                <ul>
+                    <li><a href="index.html">ホーム</a></li>
+                    <li><a href="profile.html">プロフィール</a></li>
+                    <li><a href="works.html">成果物</a></li>
+                    <li><a href="contact.html">お問い合わせ</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Page Title -->
+    <section class="section" style="background-color: #fff; padding-bottom: 0;">
+        <div class="container">
+            <h1 class="section-title">お問い合わせ</h1>
+        </div>
+    </section>
+
+    <!-- Contact Form Section -->
+    <section class="section">
+        <div class="container">
+            <div class="card" style="max-width: 600px; margin: 0 auto;">
+                <p class="mb-lg">
+                    テンプレートの使い方や、デジタルに関するちょっとしたお悩みなど、<br>
+                    お気軽にご連絡ください。
+                </p>
+
+                <form action="#" method="post" onsubmit="event.preventDefault(); alert('これはダミーフォームです。送信されません。');">
+                    <div class="form-group">
+                        <label for="name" class="form-label">お名前</label>
+                        <input type="text" id="name" name="name" class="form-input" placeholder="例：山田 太郎">
+                    </div>
+
+                    <div class="form-group">
+                        <label for="email" class="form-label">メールアドレス</label>
+                        <input type="email" id="email" name="email" class="form-input" placeholder="例：taro@example.com">
+                    </div>
+
+                    <div class="form-group">
+                        <label for="message" class="form-label">お問い合わせ内容</label>
+                        <textarea id="message" name="message" class="form-textarea"
+                            placeholder="ここに内容をご記入ください"></textarea>
+                    </div>
+
+                    <div class="form-note mb-lg">
+                        <strong>💡 どんなことを書けばいい？</strong><br>
+                        ・「〇〇のテンプレートを使ってみました！」<br>
+                        ・「家計簿のここが分かりません」<br>
+                        ・「こんなツールがあったら嬉しいです」<br>
+                        など、短い文章でも大丈夫です。
+                    </div>
+
+                    <button type="submit" class="btn btn-primary" style="width: 100%;">送信する</button>
+                </form>
+
+                <div
+                    style="margin-top: 24px; padding: 16px; background-color: #FFF3CD; color: #856404; border-radius: 4px; font-size: 0.9rem;">
+                    <strong>※ご注意</strong><br>
+                    現時点では、このフォームは実際には送信されません。<br>
+                    お問い合わせは X(Twitter): @example_account までお願いします。
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="site-footer">
+        <div class="container">
+            <p>&copy; 2024 もるさんデジタル保健室 All Rights Reserved.</p>
+        </div>
+    </footer>
+
+    <script src="js/main.js"></script>
+</body>
+
+</html>
