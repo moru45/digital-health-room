@@ -235,6 +235,12 @@ img {
     box-shadow: 0 8px 12px rgba(0, 0, 0, 0.05);
 }
 
+/* Utility to disable hover effect */
+.card-static:hover {
+    transform: none;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.02);
+}
+
 .card-title {
     font-size: 1.25rem;
     margin-bottom: var(--spacing-sm);
