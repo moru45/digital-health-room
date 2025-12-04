@@ -77,7 +77,12 @@ img {
 }
 
 .section {
-    padding: 80px 0 10px;
+    padding: 40px 0 10px;
+}
+
+.section-profile {
+    padding-top: 10px !important;  /* 上の余白を詰める */
+    padding-bottom: 20px;          /* 下は少し余裕を残す */
 }
 
 .text-center {
@@ -396,4 +401,45 @@ img {
         flex-direction: column;
         text-align: center;
     }
+}
+
+/* social-icon */
+.social-links {
+    margin-top: 6px;
+    margin-bottom: 10px;
+    display: flex;
+    gap: 28px;
+    align-items: center;
+}
+
+.sns-item {
+    display: inline-flex;
+    align-items: center;
+    text-decoration: none;
+    color: var(--gray-text);
+    font-size: 0.95rem;
+    margin-right: 24px;
+}
+
+.sns-item img {
+    width: 22px;
+    height: 22px;
+    margin-right: 6px;
+    opacity: 0.9;
+}
+
+.sns-item:hover {
+    color: var(--primary);
+}
+
+.sns-item img:hover {
+    opacity: 1;
+}
+
+.sns-icon {
+    width: 24px;     /* 全アイコン共通の幅 */
+    height: 24px;    /* 正方形で統一 */
+    object-fit: contain;
+    margin-right: 8px;
+    vertical-align: middle; /* テキストと高さを揃える */
 }
